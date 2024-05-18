@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "first-django-web"
+version = "0.1.0"
+description = ""
+authors = ["user <sheldd49@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^5.0.6"
+fastapi = "^0.111.0"
+whitenoise = "^6.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
